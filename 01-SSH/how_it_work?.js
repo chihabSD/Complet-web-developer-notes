@@ -25,3 +25,15 @@
  * the secret key is a specific to each ssh session and its generated prior to client auth
  * 
  */
+
+ /**
+  * Asymmetrical 
+  *  uses two seprate keys for encryption and decryption.
+  * public and private key pairs.
+  * I can share public keys with anyone but for private you should never ever share it
+  * 
+  * The private key cant mathemtically computed from the public key
+  * the message that in encrypted by the machine public key cannot be decrypted only by the same machine private key
+  * its know as 1 way relationship.
+  * 
+  */ 
